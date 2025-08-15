@@ -1,5 +1,6 @@
 import "./styles.css";
 import {mainPage} from "./mainPage.js";
+import {menuPage} from "./menuPage.js";
 
 const content = document.querySelector("#content");
 
@@ -11,16 +12,13 @@ function listen() {
     mainBtn.addEventListener("click", function() {
         clearContent();
         mainPage();
-        alert("main");
     });
     menuBtn.addEventListener("click", function() {
         clearContent();
-        alert("menu");
-        //menuPage();
+        menuPage();
     });
     aboutBtn.addEventListener("click", function() {
         clearContent();
-        alert("about");
         //aboutPage();
     })
 }
