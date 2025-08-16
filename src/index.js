@@ -1,6 +1,7 @@
 import "./styles.css";
 import {mainPage} from "./mainPage.js";
 import {menuPage} from "./menuPage.js";
+import {aboutPage} from "./aboutPage.js";
 
 const content = document.querySelector("#content");
 
@@ -19,7 +20,7 @@ function listen() {
     });
     aboutBtn.addEventListener("click", function() {
         clearContent();
-        //aboutPage();
+        aboutPage();
     })
 }
 
