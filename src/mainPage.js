@@ -4,7 +4,7 @@ export function mainPage() {
     const content = document.querySelector("#content");
     const mainTitle = document.createElement("p");
     mainTitle.classList.add("title");
-    mainTitle.textContent = "Black Cafe";
+    mainTitle.textContent = "Bitter & Twisted";
     content.appendChild(mainTitle);
     
     const mainPic = document.createElement("img");
@@ -16,6 +16,6 @@ export function mainPage() {
     
     const mainDescription = document.createElement("p");
     mainDescription.classList.add("description");
-    mainDescription.textContent = "Coffee first, adulting second. At Black Cafe, we serve up bold brews, cozy vibes, and just the right amount of sass. Swing by, sip slow, and stay weird.";
+    mainDescription.textContent = "Coffee first, adulting second. At Bitter & Twisted, we serve up bold brews, cozy vibes, and just the right amount of sass. Swing by, sip slow, and stay weird.";
     content.appendChild(mainDescription);
 }
