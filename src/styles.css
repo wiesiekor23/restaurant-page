@@ -4,8 +4,60 @@ body {
     display: grid;
     grid-template-rows: 1fr 10fr;
     justify-content: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+nav {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+}
+
+button {
+    background-color: rgb(112, 56, 10);
+    color: rgb(218, 218, 248);
+    font-size: 24px;
+    width: 100px;
+    height: 45px;
+    border-radius: 10px;
 }
 
 #content {
     width: 450px;
+}
+
+.title {
+    text-align: center;
+    font-family: cursive, Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 36px;
+}
+
+.main-pic {
+    display: block;
+    margin: 0 auto;
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.coffee-name {
+    font-size: 24px;
+    margin: 8px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.description {
+    margin: 8px;
+}
+
+.coffee {
+    background-color: rgb(158, 228, 255);
+    border: 5px solid rgb(112, 56, 10);
+    border-radius: 40px;
+    padding: 16px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 18px;
 }

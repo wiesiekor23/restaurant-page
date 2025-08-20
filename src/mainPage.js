@@ -15,7 +15,7 @@ export function mainPage() {
     content.appendChild(mainPic);
     
     const mainDescription = document.createElement("p");
-    mainDescription.classList.add("description");
+    mainDescription.classList.add("coffee");
     mainDescription.textContent = "Coffee first, adulting second. At Bitter & Twisted, we serve up bold brews, cozy vibes, and just the right amount of sass. Swing by, sip slow, and stay weird.";
     content.appendChild(mainDescription);
 }

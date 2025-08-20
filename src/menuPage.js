@@ -6,6 +6,7 @@ export function menuPage() {
     content.appendChild(menuTitle);
 
     const menuList = document.createElement("div");
+    menuList.classList.add("menu");
     content.appendChild(menuList);
 
     const coffeeOne = document.createElement("div");
@@ -14,7 +15,7 @@ export function menuPage() {
 
     const coffeeOneName = document.createElement("p");
     coffeeOneName.classList.add("coffee-name");
-    coffeeOneName.textContent = "The Morning Hustle";
+    coffeeOneName.textContent = "1. The Morning Hustle";
     coffeeOne.appendChild(coffeeOneName);
 
     const coffeeOneDescription = document.createElement("p");
@@ -28,7 +29,7 @@ export function menuPage() {
 
     const coffeeTwoName = document.createElement("p");
     coffeeTwoName.classList.add("coffee-name");
-    coffeeTwoName.textContent = "Cloud Nine Latte";
+    coffeeTwoName.textContent = "2. Cloud Nine Latte";
     coffeeTwo.appendChild(coffeeTwoName);
 
     const coffeeTwoDescription = document.createElement("p");
@@ -42,7 +43,7 @@ export function menuPage() {
 
     const coffeeThreeName = document.createElement("p");
     coffeeThreeName.classList.add("coffee-name");
-    coffeeThreeName.textContent = "Bitter & Brilliant";
+    coffeeThreeName.textContent = "3. Bitter & Brilliant";
     coffeeThree.appendChild(coffeeThreeName);
 
     const coffeeThreeDescription = document.createElement("p");
